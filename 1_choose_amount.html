@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!-- 위 3개의 메타 태그는 *반드시* head 태그의 처음에 와야합니다; 어떤 다른 콘텐츠들은 반드시 이 태그들 *다음에* 와야 합니다 -->
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-KPTXVGX');
+    </script>
+    <!-- End Google Tag Manager -->
+    <!-- Toss 공용 CSS-->
+    <link href="https://toss.im/frame/assets/stylesheets/tossframe-2.0.2.css" rel="stylesheet">
+    <!-- Toss ATM 서비스 CSS-->
+    <link href="assets/css/atm.css" type="text/css" rel="stylesheet">
+    <title>Toss - ATM인출 </title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <div class="wrapper-input signu p-form">
+                <div class="form-group">
+                    <h4>현금을 얼마나 찾으시겠어요?</h4>
+                    <p>1회 최대 30만원까지 출금 가능합니다.<br>(출금 수수료 1,300원)</p>
+                </div>
+                <button class="btn btn-block btn-outline-accent">1만원</button>
+                <button class="btn btn-block btn-outline-accent">3만원</button>
+                <button class="btn btn-block btn-outline-accent">5만원</button>
+                <button class="btn btn-block btn-outline-accent">10만원</button>
+                <button class="btn btn-block btn-outline-accent">20만원</button>
+                <button class="btn btn-block btn-outline-accent">30만원</button>
+                <button class="btn btn-block btn-outline-accent">직접입력</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toss JS Framework CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://toss.im/tossframe/assets/javascripts/tossframe.js"></script>
+</body>
+
+</html>

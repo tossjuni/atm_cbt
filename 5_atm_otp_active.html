@@ -1,0 +1,60 @@
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- Toss 공용 CSS-->
+    <link href="https://toss.im/frame/assets/stylesheets/tossframe-2.0.2.css" rel="stylesheet">
+    <!-- Toss ATM 서비스 CSS-->
+    <link href="assets/css/atm.css" type="text/css" rel="stylesheet">
+    <title>Toss - ATM인출 </title>
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-PQLQ78R');
+    </script>
+    <!-- End Google Tag Manager -->
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PQLQ78R"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div class="wrapper blue600">
+        <div class="content mt-4 text-center">
+            <div class="otpcode-info">
+                <!-- 코드 active -->
+                <h5>ATM 기기에<br>아래 승인번호를 입력하세요.</h5>
+            </div>
+            <div class="optcode-bg blue800 text-center mt-4 mb-4">
+                <span class="otpcode">3</span>
+                <span class="otpcode">8</span>
+                <span class="otpcode">7</span>
+                <span class="otpcode">0</span>
+                <span class="otpcode">9</span>
+                <span class="otpcode">1</span>
+            </div>
+            <button class="btn btn-sm btn-outline-secondary btn-outline-otp">다시 발급하기</button>
+            <button class="btn btn-sm btn-block btn-link btn-link-otp mt-4">어떻게 입력하는지 모르겠어요!</button>
+        </div>
+    </div>
+</body>
+
+</html>
